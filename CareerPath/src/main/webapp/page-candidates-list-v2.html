@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 
-<!-- Mirrored from grandetest.com/theme/careerup-html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Dec 2019 19:09:03 GMT -->
+<!-- Mirrored from grandetest.com/theme/careerup-html/page-candidates-list-v2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Dec 2019 19:10:21 GMT -->
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,13 +31,13 @@
 	<div class="preloader"></div>
 
 	<!-- Main Header Nav -->
-	<header class="header-nav menu_style_home_two navbar-scrolltofixed stricky main-menu">
+	<header class="header-nav style_one navbar-scrolltofixed main-menu">
 		<div class="container">
 		    <!-- Ace Responsive Menu -->
 		    <nav>
 		        <!-- Menu Toggle btn-->
 		        <div class="menu-toggle">
-		            <img class="nav_logo_img img-fluid" src="images/header-logo2.png" alt="header-logo2.png">
+		            <img class="nav_logo_img img-fluid" src="images/header-logo.png" alt="header-logo.png">
 		            <button type="button" id="menu-btn">
 		                <span class="icon-bar"></span>
 		                <span class="icon-bar"></span>
@@ -45,7 +45,7 @@
 		            </button>
 		        </div>
 		        <a href="index.html" class="navbar_brand float-left dn-smd">
-		            <img class="img-fluid" src="images/header-logo2.png" alt="header-logo2.png">
+		            <img class="img-fluid mt10" src="images/header-logo.png" alt="header-logo.png">
 		        </a>
 		        <!-- Responsive Menu Structure-->
 		        <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
@@ -190,8 +190,8 @@
 		                <a href="page-employer-post-job.html"><span class="title">Post a Job</span></a>
 		            </li>
 		        </ul>
-		        <ul class="sign_up_btn pull-right dn-smd">
-	                <li><a href="#" class="btn btn-md btn-dark" data-toggle="modal" data-target="#exampleModalCenter">Log<span class="dn-md">in</span>/Reg<span class="dn-md">ister</span></a></li>
+		        <ul class="sign_up_btn pull-right dn-smd mt10">
+	                <li><a href="#" class="btn btn-md" data-toggle="modal" data-target="#exampleModalCenter">Log<span class="dn-md">in</span>/Reg<span class="dn-md">ister</span></a></li>
 	            </ul><!-- Button trigger modal -->
 		    </nav>
 		    <!-- End of Responsive Menu -->
@@ -298,7 +298,7 @@
 	<div id="page" class="stylehome1 h0">
 		<div class="mobile-menu">
 			<div class="header stylehome1">
-	            <img class="nav_logo_img img-fluid float-left mt30" src="images/header-logo.png" alt="header-logo.png">
+	            <img class="nav_logo_img img-fluid float-left mt25" src="images/header-logo.png" alt="header-logo.png">
 				<a class="bg-thm" href="#menu"><span></span></a>
 			</div>
 		</div><!-- /.mobile-menu -->
@@ -427,489 +427,516 @@
 		</nav>
 	</div>
 
-	<!-- Home Design -->
-	<section class="home-one style2 bgc-white">
+	<!-- Our Candidate List -->
+	<section class="our-faq bgc-fa mt50">
 		<div class="container">
-			<div class="row home-content">
-				<div class="col-lg-12">
-					<div class="find-cand-sec">
-						<div class="mockup-top"><img class="animute" src="images/home/home2_bg.png" alt="" /></div>
+			<div class="row">
+				<div class="col-lg-3 col-xl-3 dn-smd">
+					<div class="faq_search_widget mb30">
+						<h4 class="fz20 mb15">Search Keywords</h4>
+						<div class="input-group mb-3">
+							<input type="text" class="form-control" placeholder="Find Your Question" aria-label="Recipient's username" aria-describedby="button-addon2">
+							<div class="input-group-append">
+						    	<button class="btn btn-outline-secondary" type="button" id="button-addon2"><span class="flaticon-search"></span></button>
+							</div>
+						</div>
+					</div>
+					<div class="faq_search_widget mb30">
+						<h4 class="fz20 mb15">Location</h4>
+						<div class="input-group mb-3">
+							<input type="text" class="form-control" placeholder="Find Your Question" aria-label="Recipient's username" aria-describedby="button-addon2">
+							<div class="input-group-append">
+						    	<button class="btn btn-outline-secondary" type="button" id="button-addon2"><span class="flaticon-location-pin"></span></button>
+							</div>
+						</div>
+					</div>
+					<div class="faq_search_widget mb30">
+						<h4 class="fz20 mb15">Category</h4>
+						<div class="candidate_revew_select">
+							<select class="selectpicker w100 show-tick">
+								<option>All Categories</option>
+								<option>Recent</option>
+								<option>Old Review</option>
+							</select>
+						</div>
+					</div>
+					<div class="cl_latest_activity mb30">
+						<h4 class="fz20 mb15">Category</h4>
+						<div class="ui_kit_radiobox">
+							<div class="radio">
+								<input id="radio_one" name="radio" type="radio" checked="">
+								<label for="radio_one"><span class="radio-label"></span> Last Hour</label>
+							</div>
+							<div class="radio">
+								<input id="radio_two" name="radio" type="radio">
+								<label for="radio_two"><span class="radio-label"></span> Last 24 hours</label>
+							</div>
+							<div class="radio">
+								<input id="radio_three" name="radio" type="radio">
+								<label for="radio_three"><span class="radio-label"></span> Last 7 days</label>
+							</div>
+							<div class="radio">
+								<input id="radio_four" name="radio" type="radio">
+								<label for="radio_four"><span class="radio-label"></span> Last 14 days</label>
+							</div>
+							<div class="radio">
+								<input id="radio_five" name="radio" type="radio">
+								<label for="radio_five"><span class="radio-label"></span> Last 30 days</label>
+							</div>
+							<a class="text-thm2 pl30" href="#">View All <span class="flaticon-right-arrow pl10"></span></a>
+						</div>
+					</div>
+					<div class="cl_pricing_slider mb30">
+						<h4 class="fz20 mb20">Hourly Rate</h4>
+						<div id="slider-range"></div>
+						<p class="text-center">
+							<input class="sl_input" type="text" id="amount">
+						</p>
+					</div>
+					<div class="cl_skill_checkbox mb30">
+						<h4 class="fz20 mb20">Skills</h4>
+						<div class="content ui_kit_checkbox text-left">
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customCheck1">
+								<label class="custom-control-label" for="customCheck1">HTML 5</label>
+							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customCheck2">
+								<label class="custom-control-label" for="customCheck2">Javascript</label>
+							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customCheck3">
+								<label class="custom-control-label" for="customCheck3">PHP</label>
+							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customCheck4">
+								<label class="custom-control-label" for="customCheck4">jQuery</label>
+							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customCheck5">
+								<label class="custom-control-label" for="customCheck5">UX/UI Design</label>
+							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customCheck6">
+								<label class="custom-control-label" for="customCheck6">Design</label>
+							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customCheck7">
+								<label class="custom-control-label" for="customCheck7">Web Design</label>
+							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customCheck8">
+								<label class="custom-control-label" for="customCheck8">Graphic Design</label>
+							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customCheck9">
+								<label class="custom-control-label" for="customCheck9">Sketch App</label>
+							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customCheck10">
+								<label class="custom-control-label" for="customCheck10">UI Design</label>
+							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customCheck11">
+								<label class="custom-control-label" for="customCheck11">Graphic Design</label>
+							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customCheck12">
+								<label class="custom-control-label" for="customCheck12">Sketch App</label>
+							</div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customCheck13">
+								<label class="custom-control-label" for="customCheck13">UI Design</label>
+							</div>
+						</div>
+					</div>
+					<div class="cl_carrer_lever mb20">
+						<div id="accordion" class="accordion">
+					    	<div class="link mb10">Career Level<i class="fa fa-caret-up"></i></div>
+					    	<div class="cl_submenu">
+								<div class="ui_kit_checkbox">
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck14">
+										<label class="custom-control-label" for="customCheck14">Intermediate</label>
+									</div>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck15">
+										<label class="custom-control-label" for="customCheck15">Normal</label>
+									</div>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck16">
+										<label class="custom-control-label" for="customCheck16">Special</label>
+									</div>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck17">
+										<label class="custom-control-label" for="customCheck17">Experienced</label>
+									</div>
+								</div>
+					    	</div>
+						</div>
+					</div>
+					<div class="cl_carrer_lever mb20">
+						<div id="accordion" class="accordion">
+					    	<div class="link mb10">Experince<i class="fa fa-caret-up"></i></div>
+					    	<div class="cl_submenu">
+								<div class="ui_kit_checkbox">
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck18">
+										<label class="custom-control-label" for="customCheck18">1Year to 2Year</label>
+									</div>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck19">
+										<label class="custom-control-label" for="customCheck19">2Year to 3Year</label>
+									</div>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck20">
+										<label class="custom-control-label" for="customCheck20">3Year to 4Year</label>
+									</div>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck21">
+										<label class="custom-control-label" for="customCheck21">4Year to 5Year</label>
+									</div>
+								</div>
+					    	</div>
+						</div>
+					</div>
+					<div class="cl_carrer_lever">
+						<div id="accordion" class="accordion">
+					    	<div class="link mb10">Gender<i class="fa fa-caret-up"></i></div>
+					    	<div class="cl_submenu">
+								<div class="ui_kit_checkbox">
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck22">
+										<label class="custom-control-label" for="customCheck22">Male</label>
+									</div>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck23">
+										<label class="custom-control-label" for="customCheck23">Female</label>
+									</div>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck24">
+										<label class="custom-control-label" for="customCheck24">Others</label>
+									</div>
+								</div>
+					    	</div>
+						</div>
 					</div>
 				</div>
-				<div class="col-lg-8">
-					<div class="home-text">
-						<h2 class="fz40">Find The Job That Fits Your Life</h2>
-						<p>Each month, more than 7 million jobseekers turn to website in their search for work, making over 160,000 applications every day.</p>
-					</div>
-				</div>
-				<div class="col-lg-12">
-					<div class="home-job-search-box mt20 mb20">
-						<form class="form-inline">
-							<div class="search_option_one">
-							    <div class="form-group">
-							    	<label for="exampleInputName"><span class="flaticon-search"></span></label>
-							    	<input type="text" class="form-control h70" id="exampleInputName" placeholder="Job Title or Keywords">
-							    </div>
+				<div class="col-lg-9 col-xl-9">
+					<div class="row">
+						<div class="col-sm-6 col-lg-6">
+							<div class="candidate_job_alart_btn mb35">
+								<h4 class="fz20 mb15">20 Candidates Found</h4>
+								<a class="btn btn-thm" href="#"><span class="flaticon-mail"></span> Get Job Alerts</a>
+								<button class="btn btn-thm btns dn db-991 float-right">Show Filter</button>
 							</div>
-							<div class="search_option_two">
-							    <div class="form-group">
-							    	<label for="exampleInputEmail"><span class="flaticon-location-pin"></span></label>
-							    	<input type="text" class="form-control h70" id="exampleInputEmail" placeholder="Location">
-							    </div>
+						</div>
+						<div class="col-sm-6 col-lg-6">
+							<div class="candidate_revew_select text-right mb35 mt50">
+								<ul>
+									<li class="list-inline-item">Sort by:</li>
+									<li class="list-inline-item">
+										<select class="selectpicker show-tick">
+											<option>Newest</option>
+											<option>Recent</option>
+											<option>Old Review</option>
+										</select>
+									</li>
+								</ul>
 							</div>
-							<div class="search_option_button">
-							    <button type="submit" class="btn btn-thm btn-secondary h70">Search</button>								
-							</div>
-						</form>
-					</div>
-					<p><span class="color-black22">Trending Keywords:</span> DesignCer,  Developer,  Web,  IOS,  PHP,  Senior,  Engineer</p>
-				</div>
-			</div>
-		</div>
-	</section>
 
-	<!-- Popular Job Categories -->
-	<section class="popular-job bgc-fa">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<div class="ulockd-main-title">
-						<h3 class="mt0">Popular Job Categories</h3>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6 col-lg-3">
-					<a href="#" class="icon_hvr_img_box style2 sbbg1">
-						<div class="overlay">
-							<div class="icon"><span class="flaticon-pen"></span></div>
-							<div class="details">
-								<h5>Design, Art & Multimedia</h5>
-								<p>22 Open Positions</p>
+							<div class="content_details">
+								<div class="details">
+									<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><span>Hide Filter</span><i>×</i></a>
+									<div class="faq_search_widget mb30">
+										<h4 class="fz20 mb15">Search Keywords</h4>
+										<div class="input-group mb-3">
+											<input type="text" class="form-control" placeholder="Find Your Question" aria-label="Recipient's username" aria-describedby="button-addon2">
+											<div class="input-group-append">
+										    	<button class="btn btn-outline-secondary" type="button" id="button-addon2"><span class="flaticon-search"></span></button>
+											</div>
+										</div>
+									</div>
+									<div class="faq_search_widget mb30">
+										<h4 class="fz20 mb15">Location</h4>
+										<div class="input-group mb-3">
+											<input type="text" class="form-control" placeholder="Find Your Question" aria-label="Recipient's username" aria-describedby="button-addon2">
+											<div class="input-group-append">
+										    	<button class="btn btn-outline-secondary" type="button" id="button-addon2"><span class="flaticon-location-pin"></span></button>
+											</div>
+										</div>
+									</div>
+									<div class="faq_search_widget mb30">
+										<h4 class="fz20 mb15">Category</h4>
+										<div class="candidate_revew_select">
+											<select class="selectpicker w100 show-tick">
+												<option>All Categories</option>
+												<option>Recent</option>
+												<option>Old Review</option>
+											</select>
+										</div>
+									</div>
+									<div class="cl_latest_activity mb30">
+										<h4 class="fz20 mb15">Date Posted</h4>
+										<div class="ui_kit_radiobox">
+											<div class="radio">
+												<input id="radio_one" name="radio" type="radio" checked="">
+												<label for="radio_one"><span class="radio-label"></span> Last Hour</label>
+											</div>
+											<div class="radio">
+												<input id="radio_two" name="radio" type="radio">
+												<label for="radio_two"><span class="radio-label"></span> Last 24 hours</label>
+											</div>
+											<div class="radio">
+												<input id="radio_three" name="radio" type="radio">
+												<label for="radio_three"><span class="radio-label"></span> Last 7 days</label>
+											</div>
+											<div class="radio">
+												<input id="radio_four" name="radio" type="radio">
+												<label for="radio_four"><span class="radio-label"></span> Last 14 days</label>
+											</div>
+											<div class="radio">
+												<input id="radio_five" name="radio" type="radio">
+												<label for="radio_five"><span class="radio-label"></span> Last 30 days</label>
+											</div>
+											<a class="text-thm2 pl30" href="#">View All <span class="flaticon-right-arrow pl10"></span></a>
+										</div>
+									<div class="cl_latest_activity mb30">
+									</div>
+										<h4 class="fz20 mb15">Job Type</h4>
+										<div class="ui_kit_whitchbox">
+											<div class="custom-control custom-switch">
+												<input type="checkbox" class="custom-control-input" id="customSwitch1">
+												<label class="custom-control-label" for="customSwitch1">Freelance</label>
+											</div>
+											<div class="custom-control custom-switch">
+												<input type="checkbox" class="custom-control-input" id="customSwitch2">
+												<label class="custom-control-label" for="customSwitch2">Full Time</label>
+											</div>
+											<div class="custom-control custom-switch">
+												<input type="checkbox" class="custom-control-input" id="customSwitch3">
+												<label class="custom-control-label" for="customSwitch3">Part Time</label>
+											</div>
+											<div class="custom-control custom-switch">
+												<input type="checkbox" class="custom-control-input" id="customSwitch4">
+												<label class="custom-control-label" for="customSwitch4">Internship</label>
+											</div>
+											<div class="custom-control custom-switch">
+												<input type="checkbox" class="custom-control-input" id="customSwitch5">
+												<label class="custom-control-label" for="customSwitch5">Temporary</label>
+											</div>
+										</div>
+									</div>
+									<div class="cl_pricing_slider mb30">
+										<h4 class="fz20 mb20">Hourly Rate</h4>
+										<div id="slider-range"></div>
+										<p class="text-center">
+											<input class="sl_input" type="text" id="amount">
+										</p>
+									</div>
+									<div class="cl_skill_checkbox mb30">
+										<h4 class="fz20 mb20">Skills</h4>
+										<div class="content ui_kit_checkbox text-left">
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck1">
+												<label class="custom-control-label" for="customCheck1">HTML 5</label>
+											</div>
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck2">
+												<label class="custom-control-label" for="customCheck2">Javascript</label>
+											</div>
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck3">
+												<label class="custom-control-label" for="customCheck3">PHP</label>
+											</div>
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck4">
+												<label class="custom-control-label" for="customCheck4">jQuery</label>
+											</div>
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck5">
+												<label class="custom-control-label" for="customCheck5">UX/UI Design</label>
+											</div>
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck6">
+												<label class="custom-control-label" for="customCheck6">Design</label>
+											</div>
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck7">
+												<label class="custom-control-label" for="customCheck7">Web Design</label>
+											</div>
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck8">
+												<label class="custom-control-label" for="customCheck8">Graphic Design</label>
+											</div>
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck9">
+												<label class="custom-control-label" for="customCheck9">Sketch App</label>
+											</div>
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck10">
+												<label class="custom-control-label" for="customCheck10">UI Design</label>
+											</div>
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck11">
+												<label class="custom-control-label" for="customCheck11">Graphic Design</label>
+											</div>
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck12">
+												<label class="custom-control-label" for="customCheck12">Sketch App</label>
+											</div>
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck13">
+												<label class="custom-control-label" for="customCheck13">UI Design</label>
+											</div>
+										</div>
+									</div>
+									<div class="cl_carrer_lever mb30">
+										<div id="accordion" class="accordion">
+									    	<div class="link mb10">Career Level<i class="fa fa-caret-up"></i></div>
+									    	<div class="cl_submenu">
+												<div class="ui_kit_checkbox">
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck14">
+														<label class="custom-control-label" for="customCheck14">Intermediate</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck15">
+														<label class="custom-control-label" for="customCheck15">Normal</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck16">
+														<label class="custom-control-label" for="customCheck16">Special</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck17">
+														<label class="custom-control-label" for="customCheck17">Experienced</label>
+													</div>
+												</div>
+									    	</div>
+										</div>
+									</div>
+									<div class="cl_carrer_lever mb30">
+										<div id="accordion" class="accordion">
+									    	<div class="link mb10">Experince<i class="fa fa-caret-up"></i></div>
+									    	<div class="cl_submenu">
+												<div class="ui_kit_checkbox">
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck18">
+														<label class="custom-control-label" for="customCheck18">1Year to 2Year</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck19">
+														<label class="custom-control-label" for="customCheck19">2Year to 3Year</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck20">
+														<label class="custom-control-label" for="customCheck20">3Year to 4Year</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck21">
+														<label class="custom-control-label" for="customCheck21">4Year to 5Year</label>
+													</div>
+												</div>
+									    	</div>
+										</div>
+									</div>
+									<div class="cl_carrer_lever mb30">
+										<div id="accordion" class="accordion">
+									    	<div class="link mb10">Gender<i class="fa fa-caret-up"></i></div>
+									    	<div class="cl_submenu">
+												<div class="ui_kit_checkbox">
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck22">
+														<label class="custom-control-label" for="customCheck22">Male</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck23">
+														<label class="custom-control-label" for="customCheck23">Female</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck24">
+														<label class="custom-control-label" for="customCheck24">Others</label>
+													</div>
+												</div>
+									    	</div>
+										</div>
+									</div>
+									<div class="cl_carrer_lever mb30">
+										<div id="accordion" class="accordion">
+									    	<div class="link mb10">Industry<i class="fa fa-caret-up"></i></div>
+									    	<div class="cl_submenu">
+												<div class="ui_kit_checkbox">
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck25">
+														<label class="custom-control-label" for="customCheck25">Development</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck26">
+														<label class="custom-control-label" for="customCheck26">Management</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck27">
+														<label class="custom-control-label" for="customCheck27">Finance</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck28">
+														<label class="custom-control-label" for="customCheck28">HTML Department</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck29">
+														<label class="custom-control-label" for="customCheck29">Seo</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck30">
+														<label class="custom-control-label" for="customCheck30">Banking</label>
+													</div>
+												</div>
+									    	</div>
+										</div>
+									</div>
+									<div class="cl_carrer_lever">
+										<div id="accordion" class="accordion">
+									    	<div class="link mb10">Qualification<i class="fa fa-caret-up"></i></div>
+									    	<div class="cl_submenu">
+												<div class="ui_kit_checkbox">
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck31">
+														<label class="custom-control-label" for="customCheck31">Certificate</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck32">
+														<label class="custom-control-label" for="customCheck32">Diploma</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck33">
+														<label class="custom-control-label" for="customCheck33">Associate</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck34">
+														<label class="custom-control-label" for="customCheck34">Degree Bachelor</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck35">
+														<label class="custom-control-label" for="customCheck35">Associate</label>
+													</div>
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="customCheck36">
+														<label class="custom-control-label" for="customCheck36">Master's Degree</label>
+													</div>
+												</div>
+									    	</div>
+										</div>
+									</div>
+								</div>
 							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-6 col-lg-3">
-					<a href="#" class="icon_hvr_img_box style2 sbbg2">
-						<div class="overlay">
-							<div class="icon"><span class="flaticon-mortarboard"></span></div>
-							<div class="details">
-								<h5>Education Training</h5>
-								<p>48 Open Positions</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-6 col-lg-3">
-					<a href="#" class="icon_hvr_img_box style2 sbbg3">
-						<div class="overlay">
-							<div class="icon"><span class="flaticon-bars"></span></div>
-							<div class="details">
-								<h5>Accounting / Finance</h5>
-								<p>97 Open Positions</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-6 col-lg-3">
-					<a href="#" class="icon_hvr_img_box style2 sbbg4">
-						<div class="overlay">
-							<div class="icon"><span class="flaticon-interview"></span></div>
-							<div class="details">
-								<h5>Human Resource</h5>
-								<p>17 Open Positions</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-6 col-lg-3">
-					<a href="#" class="icon_hvr_img_box style2 sbbg5">
-						<div class="overlay">
-							<div class="icon"><span class="flaticon-antenna"></span></div>
-							<div class="details">
-								<h5>Telecommunications</h5>
-								<p>60 Open Positions</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-6 col-lg-3">
-					<a href="#" class="icon_hvr_img_box style2 sbbg6">
-						<div class="overlay">
-							<div class="icon"><span class="flaticon-food"></span></div>
-							<div class="details">
-								<h5>Restaurant / Food Service</h5>
-								<p>22 Open Positions</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-6 col-lg-3">
-					<a href="#" class="icon_hvr_img_box style2 sbbg7">
-						<div class="overlay">
-							<div class="icon"><span class="flaticon-customer-support"></span></div>
-							<div class="details">
-								<h5>Construction / Facilities</h5>
-								<p>05 Open Positions</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-6 col-lg-3">
-					<a href="#" class="icon_hvr_img_box style2 sbbg8">
-						<div class="overlay">
-							<div class="icon"><span class="flaticon-care"></span></div>
-							<div class="details">
-								<h5>Health</h5>
-								<p>10 Open Positions</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-lg-6 offset-lg-3">
-					<div class="pjc_all_btn text-center">
-						<a class="btn btn-thm" href="#">Browse All Categories <span class="flaticon-right-arrow pl10"></span></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 
-	<!-- How It's Work -->
-	<section class="popular-job">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<div class="ulockd-main-title">
-						<h3 class="mt0">How It Works?</h3>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6 col-lg-4 prpl5">
-					<div class="icon_box_hiw">
-						<div class="icon"><div class="list_tag float-right"><p>1</p></div><span class="flaticon-unlocked"></span></div>
-						<div class="details">
-							<h4>Create An Account</h4>
-							<p>Post a job to tell us about your project. We'll quickly match you with the right freelancers.</p>
 						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-4 prpl5 mt20-xxsd">
-					<div class="icon_box_hiw">
-						<div class="icon middle"><div class="list_tag float-right"><p>2</p></div><span class="flaticon-job"></span></div>
-						<div class="details">
-							<h4>Search Jobs</h4>
-							<p>Browse profiles, reviews, and proposals then interview top candidates.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-4 prpl5 mt20-xxsd">
-					<div class="icon_box_hiw">
-						<div class="icon"><div class="list_tag float-right"><p>3</p></div><span class="flaticon-trophy"></span></div>
-						<div class="details">
-							<h4>Save & Apply</h4>
-							<p>Use the Upwork platform to chat, share files, and collaborate from your desktop or on the go.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Features Job List Design -->
-	<section class="popular-job bgc-fa pb30">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="ulockd-main-title">
-						<h3 class="mt0">Featured Jobs</h3>
-						<a class="text-thm float-right" href="#">Browse All Jobs <i class="flaticon-right-arrow pl15"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12 col-lg-12">
-					<div class="fj_post">
-						<div class="details">
-							<h5 class="job_chedule text-thm mt0">Full Time</h5>
-							<div class="thumb fn-smd">
-								<img class="img-fluid" src="images/partners/1.jpg" alt="1.jpg">
-							</div>
-							<h4>JEB Product Sales Specialist, Russia & CIS</h4>
-							<p>Posted 23 August by <a class="text-thm" href="#">Wiggle CRC</a></p>
-							<ul class="featurej_post">
-								<li class="list-inline-item"><span class="flaticon-location-pin"></span> <a href="#">Bothell, WA, USA</a></li>
-								<li class="list-inline-item"><span class="flaticon-price pl20"></span> <a href="#">$13.00 - $18.00 per hour</a></li>
-							</ul>
-						</div>
-						<a class="btn btn-md btn-transparent float-right fn-smd" href="#">Browse Job</a>
-					</div>
-				</div>
-				<div class="col-sm-12 col-lg-12">
-					<div class="fj_post">
-						<div class="details">
-							<h5 class="job_chedule text-thm mt0">Part Time</h5>
-							<div class="thumb fn-smd">
-								<img class="img-fluid" src="images/partners/2.jpg" alt="2.jpg">
-							</div>
-							<h4>General Ledger Accountant</h4>
-							<p>Posted 23 August by <a class="text-thm" href="#">Robert Half Finance & Accounting</a></p>
-							<ul class="featurej_post">
-								<li class="list-inline-item"><span class="flaticon-location-pin"></span> <a href="#">RG40, Wokingham</a></li>
-								<li class="list-inline-item"><span class="flaticon-price pl20"></span> <a href="#">$13.00 - $18.00 per hour</a></li>
-							</ul>
-						</div>
-						<a class="btn btn-md btn-transparent float-right fn-smd" href="#">Browse Job</a>
-					</div>
-				</div>
-				<div class="col-sm-12 col-lg-12">
-					<div class="fj_post">
-						<div class="details">
-							<h5 class="job_chedule text-thm mt0">Full Time</h5>
-							<div class="thumb fn-smd">
-								<img class="img-fluid" src="images/partners/3.jpg" alt="3.jpg">
-							</div>
-							<h4>Junior Digital Graphic Designer</h4>
-							<p>Posted 23 August by <a class="text-thm" href="#">Parkside Recruitment - Uxbridge Finance</a></p>
-							<ul class="featurej_post">
-								<li class="list-inline-item"><span class="flaticon-location-pin"></span> <a href="#">New Denham, UB8 1JG</a></li>
-								<li class="list-inline-item"><span class="flaticon-price pl20"></span> <a href="#">$13.00 - $18.00 per hour</a></li>
-							</ul>
-						</div>
-						<a class="btn btn-md btn-transparent float-right fn-smd" href="#">Browse Job</a>
-					</div>
-				</div>
-				<div class="col-sm-12 col-lg-12">
-					<div class="fj_post">
-						<div class="details">
-							<h5 class="job_chedule text-thm mt0">Full Time</h5>
-							<div class="thumb fn-smd">
-								<img class="img-fluid" src="images/partners/4.jpg" alt="4.jpg">
-							</div>
-							<h4>UX/UI Designer</h4>
-							<p>Yesterday <a class="text-thm" href="#">NonStop Recruitment Ltd</a></p>
-							<ul class="featurej_post">
-								<li class="list-inline-item"><span class="flaticon-location-pin"></span> <a href="#">Bothell, WA, USA</a></li>
-								<li class="list-inline-item"><span class="flaticon-price pl20"></span> <a href="#">$13.00 - $18.00 per hour</a></li>
-							</ul>
-						</div>
-						<a class="btn btn-md btn-transparent float-right fn-smd" href="#">Browse Job</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Browse Local Jobs -->
-	<section class="job-location pb30">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="ulockd-main-title">
-						<h3 class="mt0">Browse Local Jobs</h3>
-						<a class="text-thm float-right" href="#">Browse All Local Jobs <i class="flaticon-right-arrow pl15"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6 col-lg-4">
-					<a href="#" class="job_loc_img_box">
-						<div class="thumb"><img class="img-fluid" src="images/service/9.jpg" alt="9.jpg"></div>
-						<div class="details">
-							<h4>London</h4>
-							<h5>152,141</h5>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-6 col-lg-4">
-					<a href="#" class="job_loc_img_box">
-						<div class="thumb"><img class="img-fluid" src="images/service/10.jpg" alt="10.jpg"></div>
-						<div class="details">
-							<h4>Manchester</h4>
-							<h5>586,478</h5>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-6 col-lg-4">
-					<a href="#" class="job_loc_img_box">
-						<div class="thumb"><img class="img-fluid" src="images/service/11.jpg" alt="11.jpg"></div>
-						<div class="details">
-							<h4>Liverpool</h4>
-							<h5>15,258</h5>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-6 col-lg-4">
-					<a href="#" class="job_loc_img_box">
-						<div class="thumb"><img class="img-fluid" src="images/service/12.jpg" alt="12.jpg"></div>
-						<div class="details">
-							<h4>Istanbul</h4>
-							<h5>152,141</h5>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-6 col-lg-4">
-					<a href="#" class="job_loc_img_box">
-						<div class="thumb"><img class="img-fluid" src="images/service/13.jpg" alt="13.jpg"></div>
-						<div class="details">
-							<h4>New York</h4>
-							<h5>586,478</h5>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-6 col-lg-4">
-					<a href="#" class="job_loc_img_box">
-						<div class="thumb"><img class="img-fluid" src="images/service/14.jpg" alt="14.jpg"></div>
-						<div class="details">
-							<h4>Los Angeles</h4>
-							<h5>15,258</h5>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Expert Freelancer List -->
-	<section class="expert-freelancer bgc-fa">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="ulockd-main-title">
-						<h3 class="mt0">Hire Expert Freelancer</h3>
-						<a class="text-thm float-right" href="#">Browse All Freelancers <i class="flaticon-right-arrow pl15"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="ef_slider">
-						<div class="item">
-							<div class="ef_post">
+						<div class="col-md-6 col-lg-6">
+							<div class="ef_post style2 mt30-smd">
 								<div class="ef_header">
 									<h4 class="hr_rate"><span class="text-thm">$150</span> <small>/hr</small></h4>
-									<a class="ef_bookmark" href="#" title="BookMark Freelancer"><span class="flaticon-bookmark"></span></a>
-								</div>
-								<div class="thumb text-center">
-									<img class="img-fluid" src="images/team/1.jpg" alt="1.jpg">
-								</div>
-								<div class="freelancer_review">
-									<div class="everage_rating">4.5</div>
-									<ul class="rating_list">
-										<li class="list-inline-item"><a href="#"><span class="fa fa-star color-golden"></span></a></li>
-										<li class="list-inline-item"><a href="#"><span class="fa fa-star color-golden"></span></a></li>
-										<li class="list-inline-item"><a href="#"><span class="fa fa-star color-golden"></span></a></li>
-										<li class="list-inline-item"><a href="#"><span class="fa fa-star color-golden"></span></a></li>
-										<li class="list-inline-item"><a href="#"><span class="fa fa-star-o"></span></a></li>
-									</ul>
-									<h4 class="title">Ali TUFAN</h4>
-									<p>App Designer</p>
-								</div>
-								<div class="details">
-									<div class="job_locate">
-										<p>Location</p>
-										<ul class="float-right">
-											<li class="list-inline-item m0"><p>Turkey</p></li>
-											<li class="list-inline-item m0"><img class="img-fluid pl5" src="images/resource/turkey.png" alt="turkey.png"></li>
-										</ul>
-									</div>
-									<div class="job_srate">
-										<p>Job Success</p>
-										<p class="float-right">100%</p>
-									</div>
-									<div class="ef_prf_link mt10">
-										<a class="btn btn-block btn-transparent" href="#">View Profile <i class="flaticon-right-arrow pl10"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="ef_post">
-								<div class="ef_header">
-									<h4 class="hr_rate"><span class="text-thm">$85</span> <small>/hr</small></h4>
-									<a class="ef_bookmark" href="#" title="BookMark Freelancer"><span class="flaticon-bookmark"></span></a>
-								</div>
-								<div class="thumb text-center">
-									<img class="img-fluid" src="images/team/2.jpg" alt="2.jpg">
-								</div>
-								<div class="freelancer_review">
-									<div class="everage_rating">4.5</div>
-									<ul class="rating_list">
-										<li class="list-inline-item"><a href="#"><span class="fa fa-star color-golden"></span></a></li>
-										<li class="list-inline-item"><a href="#"><span class="fa fa-star color-golden"></span></a></li>
-										<li class="list-inline-item"><a href="#"><span class="fa fa-star color-golden"></span></a></li>
-										<li class="list-inline-item"><a href="#"><span class="fa fa-star color-golden"></span></a></li>
-										<li class="list-inline-item"><a href="#"><span class="fa fa-star-o"></span></a></li>
-									</ul>
-									<h4 class="title">Dominikus YURI</h4>
-									<p>Front-end Developer</p>
-								</div>
-								<div class="details">
-									<div class="job_locate">
-										<p>Location</p>
-										<ul class="float-right">
-											<li class="list-inline-item m0"><p>United States</p></li>
-											<li class="list-inline-item m0"><img class="img-fluid pl5" src="images/resource/usa.png" alt="usa.png"></li>
-										</ul>
-										
-									</div>
-									<div class="job_srate">
-										<p>Job Success</p>
-										<p class="float-right">100%</p>
-									</div>
-									<div class="ef_prf_link mt10">
-										<a class="btn btn-block btn-transparent" href="#">View Profile <i class="flaticon-right-arrow pl10"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="ef_post">
-								<div class="ef_header">
-									<h4 class="hr_rate"><span class="text-thm">$200</span> <small>/hr</small></h4>
-									<a class="ef_bookmark" href="#" title="BookMark Freelancer"><span class="flaticon-bookmark"></span></a>
-								</div>
-								<div class="thumb text-center">
-									<img class="img-fluid" src="images/team/3.jpg" alt="3.jpg">
-								</div>
-								<div class="freelancer_review">
-									<div class="everage_rating">4.5</div>
-									<ul class="rating_list">
-										<li class="list-inline-item"><a href="#"><span class="fa fa-star color-golden"></span></a></li>
-										<li class="list-inline-item"><a href="#"><span class="fa fa-star color-golden"></span></a></li>
-										<li class="list-inline-item"><a href="#"><span class="fa fa-star color-golden"></span></a></li>
-										<li class="list-inline-item"><a href="#"><span class="fa fa-star color-golden"></span></a></li>
-										<li class="list-inline-item"><a href="#"><span class="fa fa-star-o"></span></a></li>
-									</ul>
-									<h4 class="title">Deanna ROSE</h4>
-									<p>UI - UX Designer</p>
-								</div>
-								<div class="details">
-									<div class="job_locate">
-										<p>Location</p>
-										<ul class="float-right">
-											<li class="list-inline-item m0"><p>Brazil</p></li>
-											<li class="list-inline-item m0"><img class="img-fluid pl5" src="images/resource/brazil.png" alt="brazil.png"></li>
-										</ul>
-										
-									</div>
-									<div class="job_srate">
-										<p>Job Success</p>
-										<p class="float-right">100%</p>
-									</div>
-									<div class="ef_prf_link mt10">
-										<a class="btn btn-block btn-transparent" href="#">View Profile <i class="flaticon-right-arrow pl10"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="ef_post">
-								<div class="ef_header">
-									<h4 class="hr_rate"><span class="text-thm">$150</span> <small>/hr</small></h4>
-									<a class="ef_bookmark" href="#" title="BookMark Freelancer"><span class="flaticon-bookmark"></span></a>
+									<a class="ef_bookmark" href="#" title="BookMark Freelancer"><span class="flaticon-favorites"></span></a>
 								</div>
 								<div class="thumb text-center">
 									<img class="img-fluid" src="images/team/4.jpg" alt="4.jpg">
@@ -936,7 +963,7 @@
 									</div>
 									<div class="job_srate">
 										<p>Job Success</p>
-										<p class="float-right">88%</p>
+										<p class="float-right">100%</p>
 									</div>
 									<div class="ef_prf_link mt10">
 										<a class="btn btn-block btn-transparent" href="#">View Profile <i class="flaticon-right-arrow pl10"></i></a>
@@ -944,11 +971,11 @@
 								</div>
 							</div>
 						</div>
-						<div class="item">
-							<div class="ef_post">
+						<div class="col-md-6 col-lg-6">
+							<div class="ef_post style2">
 								<div class="ef_header">
 									<h4 class="hr_rate"><span class="text-thm">$150</span> <small>/hr</small></h4>
-									<a class="ef_bookmark" href="#" title="BookMark Freelancer"><span class="flaticon-bookmark"></span></a>
+									<a class="ef_bookmark" href="#" title="BookMark Freelancer"><span class="flaticon-favorites"></span></a>
 								</div>
 								<div class="thumb text-center">
 									<img class="img-fluid" src="images/team/5.jpg" alt="5.jpg">
@@ -975,7 +1002,7 @@
 									</div>
 									<div class="job_srate">
 										<p>Job Success</p>
-										<p class="float-right">88%</p>
+										<p class="float-right">100%</p>
 									</div>
 									<div class="ef_prf_link mt10">
 										<a class="btn btn-block btn-transparent" href="#">View Profile <i class="flaticon-right-arrow pl10"></i></a>
@@ -983,11 +1010,11 @@
 								</div>
 							</div>
 						</div>
-						<div class="item">
-							<div class="ef_post">
+						<div class="col-md-6 col-lg-6">
+							<div class="ef_post style2">
 								<div class="ef_header">
 									<h4 class="hr_rate"><span class="text-thm">$150</span> <small>/hr</small></h4>
-									<a class="ef_bookmark" href="#" title="BookMark Freelancer"><span class="flaticon-bookmark"></span></a>
+									<a class="ef_bookmark" href="#" title="BookMark Freelancer"><span class="flaticon-favorites"></span></a>
 								</div>
 								<div class="thumb text-center">
 									<img class="img-fluid" src="images/team/6.jpg" alt="6.jpg">
@@ -1014,7 +1041,7 @@
 									</div>
 									<div class="job_srate">
 										<p>Job Success</p>
-										<p class="float-right">88%</p>
+										<p class="float-right">100%</p>
 									</div>
 									<div class="ef_prf_link mt10">
 										<a class="btn btn-block btn-transparent" href="#">View Profile <i class="flaticon-right-arrow pl10"></i></a>
@@ -1022,11 +1049,11 @@
 								</div>
 							</div>
 						</div>
-						<div class="item">
-							<div class="ef_post">
+						<div class="col-md-6 col-lg-6">
+							<div class="ef_post style2">
 								<div class="ef_header">
 									<h4 class="hr_rate"><span class="text-thm">$150</span> <small>/hr</small></h4>
-									<a class="ef_bookmark" href="#" title="BookMark Freelancer"><span class="flaticon-bookmark"></span></a>
+									<a class="ef_bookmark" href="#" title="BookMark Freelancer"><span class="flaticon-favorites"></span></a>
 								</div>
 								<div class="thumb text-center">
 									<img class="img-fluid" src="images/team/7.jpg" alt="7.jpg">
@@ -1053,7 +1080,7 @@
 									</div>
 									<div class="job_srate">
 										<p>Job Success</p>
-										<p class="float-right">88%</p>
+										<p class="float-right">100%</p>
 									</div>
 									<div class="ef_prf_link mt10">
 										<a class="btn btn-block btn-transparent" href="#">View Profile <i class="flaticon-right-arrow pl10"></i></a>
@@ -1061,11 +1088,11 @@
 								</div>
 							</div>
 						</div>
-						<div class="item">
-							<div class="ef_post">
+						<div class="col-md-6 col-lg-6">
+							<div class="ef_post style2">
 								<div class="ef_header">
 									<h4 class="hr_rate"><span class="text-thm">$150</span> <small>/hr</small></h4>
-									<a class="ef_bookmark" href="#" title="BookMark Freelancer"><span class="flaticon-bookmark"></span></a>
+									<a class="ef_bookmark" href="#" title="BookMark Freelancer"><span class="flaticon-favorites"></span></a>
 								</div>
 								<div class="thumb text-center">
 									<img class="img-fluid" src="images/team/8.jpg" alt="8.jpg">
@@ -1092,7 +1119,7 @@
 									</div>
 									<div class="job_srate">
 										<p>Job Success</p>
-										<p class="float-right">88%</p>
+										<p class="float-right">100%</p>
 									</div>
 									<div class="ef_prf_link mt10">
 										<a class="btn btn-block btn-transparent" href="#">View Profile <i class="flaticon-right-arrow pl10"></i></a>
@@ -1100,11 +1127,11 @@
 								</div>
 							</div>
 						</div>
-						<div class="item">
-							<div class="ef_post">
+						<div class="col-md-6 col-lg-6">
+							<div class="ef_post style2">
 								<div class="ef_header">
 									<h4 class="hr_rate"><span class="text-thm">$150</span> <small>/hr</small></h4>
-									<a class="ef_bookmark" href="#" title="BookMark Freelancer"><span class="flaticon-bookmark"></span></a>
+									<a class="ef_bookmark" href="#" title="BookMark Freelancer"><span class="flaticon-favorites"></span></a>
 								</div>
 								<div class="thumb text-center">
 									<img class="img-fluid" src="images/team/9.jpg" alt="9.jpg">
@@ -1131,12 +1158,33 @@
 									</div>
 									<div class="job_srate">
 										<p>Job Success</p>
-										<p class="float-right">88%</p>
+										<p class="float-right">100%</p>
 									</div>
 									<div class="ef_prf_link mt10">
 										<a class="btn btn-block btn-transparent" href="#">View Profile <i class="flaticon-right-arrow pl10"></i></a>
 									</div>
 								</div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="mbp_pagination">
+								<ul class="page_navigation">
+								    <li class="page-item disabled">
+								    	<a class="page-link" href="#" tabindex="-1" aria-disabled="true"> <span class="flaticon-left-arrow"></span> Previous</a>
+								    </li>
+								    <li class="page-item"><a class="page-link" href="#">1</a></li>
+								    <li class="page-item active" aria-current="page">
+								    	<a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+								    </li>
+								    <li class="page-item"><a class="page-link" href="#">3</a></li>
+								    <li class="page-item"><a class="page-link" href="#">4</a></li>
+								    <li class="page-item"><a class="page-link" href="#">5</a></li>
+								    <li class="page-item"><a class="page-link" href="#">...</a></li>
+								    <li class="page-item"><a class="page-link" href="#">45</a></li>
+								    <li class="page-item">
+								    	<a class="page-link" href="#">Next <span class="flaticon-right-arrow"></span></a>
+								    </li>
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -1297,7 +1345,7 @@
 <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
 <script type="text/javascript" src="js/snackbar.min.js"></script>
 <script type="text/javascript" src="js/simplebar.js"></script>
-<script type="text/javascript" src="js/parallax-new.js"></script>
+<script type="text/javascript" src="js/tagsinput.js"></script>
 <script type="text/javascript" src="js/parallax.js"></script>
 <script type="text/javascript" src="js/scrollto.js"></script>
 <script type="text/javascript" src="js/jquery-scrolltofixed-min.js"></script>
@@ -1306,9 +1354,10 @@
 <script type="text/javascript" src="js/progressbar.js"></script>
 <script type="text/javascript" src="js/slider.js"></script>
 <script type="text/javascript" src="js/timepicker.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
 <!-- Custom script for all pages --> 
 <script type="text/javascript" src="js/script.js"></script>
 </body>
 
-<!-- Mirrored from grandetest.com/theme/careerup-html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Dec 2019 19:09:30 GMT -->
+<!-- Mirrored from grandetest.com/theme/careerup-html/page-candidates-list-v2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Dec 2019 19:10:21 GMT -->
 </html>
